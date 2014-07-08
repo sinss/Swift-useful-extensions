@@ -12,6 +12,9 @@
 		B3A0031D196BCE6A00B39D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A0031B196BCE6A00B39D08 /* Main.storyboard */; };
 		B3A0031F196BCE6A00B39D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A0031E196BCE6A00B39D08 /* Images.xcassets */; };
 		B3A0032B196BCE6A00B39D08 /* extensionSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0032A196BCE6A00B39D08 /* extensionSampleTests.swift */; };
+		B3A003B1196BD57F00B39D08 /* NSNumber+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A003B0196BD57F00B39D08 /* NSNumber+extension.swift */; };
+		B3A003B3196BDA3900B39D08 /* NSString+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A003B2196BDA3900B39D08 /* NSString+extension.swift */; };
+		B3A003B7196BF13400B39D08 /* NSDate+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A003B6196BF13400B39D08 /* NSDate+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 		B3A00324196BCE6A00B39D08 /* extensionSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = extensionSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A00329196BCE6A00B39D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3A0032A196BCE6A00B39D08 /* extensionSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionSampleTests.swift; sourceTree = "<group>"; };
+		B3A003B0196BD57F00B39D08 /* NSNumber+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNumber+extension.swift"; sourceTree = "<group>"; };
+		B3A003B2196BDA3900B39D08 /* NSString+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+extension.swift"; sourceTree = "<group>"; };
+		B3A003B6196BF13400B39D08 /* NSDate+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,7 @@
 		B3A00314196BCE6A00B39D08 /* extensionSample */ = {
 			isa = PBXGroup;
 			children = (
+				B3A00334196BCEA300B39D08 /* classes */,
 				B3A00317196BCE6A00B39D08 /* AppDelegate.swift */,
 				B3A00319196BCE6A00B39D08 /* ViewController.swift */,
 				B3A0031B196BCE6A00B39D08 /* Main.storyboard */,
@@ -107,6 +114,16 @@
 				B3A00329196BCE6A00B39D08 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3A00334196BCEA300B39D08 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				B3A003B0196BD57F00B39D08 /* NSNumber+extension.swift */,
+				B3A003B2196BDA3900B39D08 /* NSString+extension.swift */,
+				B3A003B6196BF13400B39D08 /* NSDate+extension.swift */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +227,9 @@
 			files = (
 				B3A0031A196BCE6A00B39D08 /* ViewController.swift in Sources */,
 				B3A00318196BCE6A00B39D08 /* AppDelegate.swift in Sources */,
+				B3A003B7196BF13400B39D08 /* NSDate+extension.swift in Sources */,
+				B3A003B1196BD57F00B39D08 /* NSNumber+extension.swift in Sources */,
+				B3A003B3196BDA3900B39D08 /* NSString+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
